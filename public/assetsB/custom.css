@@ -1,0 +1,61 @@
+.nav-title{
+    color: #6a7187;
+    text-transform: uppercase;
+    padding: 50px 17px 10px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+
+.nav-sidebar .nav-item > .nav-link {
+    color: #a6b0cf;
+    font-size: 13px;
+}
+
+.nav-sidebar > .nav-item .nav-link i {
+    display: inline-block;
+    min-width: 1.75rem;
+    padding-bottom: 0.125em;
+    font-size: 1.25rem;
+    line-height: 1.40625rem;
+    vertical-align: middle;
+    color: #7f8387;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+.nav-sidebar .nav-item > .nav-link .right{
+    font-size: 14px;
+    text-align: center;
+    color: #a6b0cf;
+}
+
+.nav-sidebar > .nav-item > .nav-treeview a{
+    padding-left: 45px;
+}
+
+.card-color .card-header{
+    background: #DDD;
+    padding: 5px;
+    font-size: 1rem;
+    padding-left: 15px;
+}
+
+.card-title{
+    color:#495057;
+    font-weight: 400;
+}
+
+.form-container {
+    padding: 10px;
+    border: 1px solid #DDD;
+}
+
+
+.form-container .form-group label {
+    text-align: right;
+    font-weight: 700;
+    padding-top: 0.5rem;
+    color: #495057;
+    padding-right: 22px;
+}

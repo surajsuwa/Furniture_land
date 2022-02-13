@@ -24,3 +24,25 @@ Route::get('/dashboard', function () {
 
 // routes/auth.php so that auth.php file will be available in this web.php
 require __DIR__.'/auth.php';
+
+
+/*====================================================
+                ## FrontEnd ##
+=====================================================*/
+
+
+/*====================================================
+                ## backend ##
+=====================================================*/
+Route::get('admin',function(){
+    return view('backend.pages.home');
+});
+
+
+Route::get('admin',function(){
+    return view('backend.pages.home');
+});
+
+Route::get('siteSetting',function(){
+    return view('backend.pages.master_setup.site_setting');
+})->name('siteSetting');
